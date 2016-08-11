@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Яна Митрофанова](https://up.htmlacademy.ru/htmlcss/14/user/132332).
-* Наставник: [Яна Митрофанова](https://up.htmlacademy.ru/htmlcss/14/user/132332).
+* Наставник: [Митрофанова Яна](https://up.htmlacademy.ru/htmlcss/14/user/132332).
 
 ---
 
