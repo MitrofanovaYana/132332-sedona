@@ -1,0 +1,34 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: ;
+  color: ;
+  line-height: ;
+
+}
+
+.container {
+  width: 1200px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: ;
+  font-size: ;
+  line-height: ;
+  color: ;
+}
+
+h2 {
+  font-family: ;
+  font-size: ;
+  line-height: ;
+  color: ;
+
+}
+
+.main-navigation {
+  float: left;
+  padding-left: ;
+
+}
