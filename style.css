@@ -6,6 +6,22 @@ body {
 
 }
 
+.main-navigation {
+  width: 1056;
+  }
+
+.main-navigation a {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 144px;
+  text-align: left;
+  text-decoration: none;
+  font-family: PT Sans, bold;
+  color: black;
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .container {
   width: 1200px;
   padding: 40px;
@@ -27,8 +43,12 @@ h2 {
 
 }
 
-.main-navigation {
-  float: left;
-  padding-left: ;
-
+.index-content h1 {
+  font-family: PT Sans, bold;
+  color: black;
+  font-size: 21px;
+  line-height: 26px;
 }
+
+
+
