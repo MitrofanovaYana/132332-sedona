@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+ <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
 </head>
@@ -22,10 +22,11 @@
     </div>
   </header>
 
+  <main>
   <!-- формы сдизайнила из нердс и подкорректировала-->
   <div> <img src="img/filter-background.jpg"></div>
-  <div class="catalog-form clearfix">
 
+  <div class="catalog-form clearfix">
       <fieldset class="form-group form-group-checkbox">
         <legend class="form-title">Инфраструктура:</legend>
         <input type="checkbox" name="pool" id="pool-field" checked class="checkbox">
@@ -47,22 +48,22 @@
       </fieldset>
 
       <form action="/form/" method="GET">
-      <div class="form-title">Стоимость в сутки:</div>
-      <div class="range-filter">
-        <div class="range-controls">
+        <div class="form-title">Стоимость в сутки:</div>
+        <div class="range-filter">
+          <div class="range-controls">
           <div class="scale">
             <div class="bar" style=""></div>
           </div>
           <div class="toggle toggle-min"></div>
           <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+            <label class="max-price">до <input name="max-price" type="text" value="3000"></label>
+            <button type="submit" class="submit-btn">Показать</button>
+          </div>
         </div>
-        <div class="price-controls">
-          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-          <label class="max-price">до <input name="max-price" type="text" value="3000"></label>
-          <button type="submit" class="submit-btn">Показать</button>
-        </div>
-      </div>
-    </form>
+      </form>
   </div>
 
 
@@ -85,12 +86,12 @@
     <ul class="sort-up-down">
       <li class="sort">
         <a class="icon-arrow icon-arrow--active" href="#">
-          <span class="icon-down-dir"></span>
+          <span class="icon-down-dir"><img src="img/icon-down-dir.svg"></span>
         </a>
       </li>
       <li class="sort">
         <a class="icon-arrow" href="#">
-          <span class="icon-up-dir"></span>
+          <span class="icon-up-dir"><img src="img/icon-up-dir.svg"></span>
         </a>
       </li>
     </ul>
@@ -193,7 +194,11 @@
   </div>
 
 
-        <div class="map"><img src="img/sedona-map.jpg" width="1200px" height="593px">Тут карта</div>
+    <div class="map">
+      <img src="img/sedona-map.jpg" width="1200px" height="593px">
+    </div>
+
+  </main>
 
     <footer class="main-footer">
         <div>#VISITSEDONA</div>
